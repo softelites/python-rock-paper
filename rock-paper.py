@@ -1,7 +1,7 @@
 import random
 lst = ["rock","paper","scissors"]
 for i in range(0,10,1):
-    cpu  = random.choices(lst)
+    cpu  = random.choice(lst)
     user = input("*************************************** \n Rock, Paper & scissors \n 1. rock \n 2. paper \n 3. scissors\n 4. exit \n Your Choice =  ")
     print("\n")
     #first case
